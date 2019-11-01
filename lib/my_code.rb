@@ -21,7 +21,6 @@ def reduce(source_array, starting_point = false)
   
   while i < source_array.length
     sum  = yield(sum, source_array[i])
-    binding.pry
     i += 1
   end
 
