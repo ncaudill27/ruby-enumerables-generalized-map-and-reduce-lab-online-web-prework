@@ -12,6 +12,7 @@ end
 def reduce(source_array, starting_point = nil)
   if starting_point
     sv = starting_point
+  else
     
   value = starting_point
   source_array.each do |index|
