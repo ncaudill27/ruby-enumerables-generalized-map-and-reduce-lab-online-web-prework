@@ -9,7 +9,7 @@ def map(source_array)
 new
 end
 
-def reduce(source_array, starting_point = nil)
+def reduce(source_array, starting_point = false)
   if starting_point
     sv = starting_point
     sum = sv
