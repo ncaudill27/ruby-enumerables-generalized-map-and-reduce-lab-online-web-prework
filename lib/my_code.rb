@@ -15,8 +15,8 @@ def reduce(source_array, starting_point = nil)
     sum = sv
   else
     sum = source_array[0]
-    
-  value = starting_point
+  end
+  
   source_array.each do |index|
     value = yield(value)
   end
