@@ -14,7 +14,7 @@ def reduce(source_array, starting_point = false)
     sv = starting_point
     sum = sv
   else
-    sum = source_array[0]
+    sum = 0
   end
   
   source_array.each do |i|
