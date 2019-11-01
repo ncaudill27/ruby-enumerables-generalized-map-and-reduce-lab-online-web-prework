@@ -19,8 +19,9 @@ def reduce(source_array, starting_point = false)
     i = 1
   end
   
-  source_array.each do |i|
+  while i < source_array.length
     sum  = yield(sum, source_array[i])
+    i += 1
   end
 
 sum
