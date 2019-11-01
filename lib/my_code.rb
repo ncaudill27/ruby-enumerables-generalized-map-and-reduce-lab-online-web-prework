@@ -20,7 +20,7 @@ def reduce(source_array, starting_point = false)
   end
   
   source_array.each do |i|
-    sum  = yield(sum, array[i])
+    sum  = yield(sum, source_array[i])
   end
 
 sum
